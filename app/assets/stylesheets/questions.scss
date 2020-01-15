@@ -2,10 +2,52 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-$gray: #F4F4F4;
+$gray: #3B3A35;
+$blue: #337AB8;
+$light_gray: #FFFFFF;
 
 body {
-  background: $gray; // Using this variable
+  background: white; // Using this variable
   font-family: Roboto;
   font-weight: lighter;
+  color: $gray;
+}
+
+.form {
+  display: inline-block;
+  border-radius: 5px;
+  height: 30px;
+  width: 320px;
+  border-color: #D9D9D9;
+  border-width: 0.5px;
+  border-style: solid;
+}
+
+.btn-blue {
+  background-color: $blue;
+  color: white;
+  font-size: 13px;
+  padding: 10px 30px;
+  border-radius: 5px;
+  font-weight: lighter;
+  text-decoration: none;
+}
+
+.container {
+  width: 25%;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+.message {
+  padding: 5px;
+  margin: 5px;
+}
+
+.border{
+ border-left: 5px solid;
+}
+
+.yellow-background {
+  background-color: #FFFFE1;
 }

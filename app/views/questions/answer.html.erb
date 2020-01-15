@@ -1,16 +1,21 @@
-<div>
+<div class="container">
     <h1>Stupid Coaching</h1> <!-- Add this -->
-  <div>
-    <p><%= @ask %></p>
-    <p>- You</p>
-  </div>
 
-  <div>
-    <p><%= @coach %></p>
-    <p>- Coach</p>
-  </div>
+    <div class="border">
+      <div class="message">
+        <p><%= @ask %></p>
+        <p>- You</p>
+      </div>
+    </div>
 
-  <%= link_to "Ask a new question", ask_path %>
+    <div class="border">
+      <div class="message yellow-background">
+        <p><%= @coach %></p>
+        <p>- Coach</p>
+      </div>
+    </div>
 
-  <p>@the_ginja_ninja</p>  <!-- Add this -->
+    <%= link_to "Ask a new question", ask_path %>
+
+    <p>@the_ginja_ninja</p>  <!-- Add this -->
 </div>
