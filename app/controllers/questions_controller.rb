@@ -4,7 +4,6 @@ class QuestionsController < ApplicationController
 
   def answer
     @ask = params[:question]
-
     if @ask == 'I am going to work'
       @coach = 'Great!'
     elsif @ask.to_s.include? '?'
